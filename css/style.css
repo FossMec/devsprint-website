@@ -1,5 +1,4 @@
 
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -129,9 +128,11 @@ h6 {color:orangered;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
+
+
 #header.header-scrolled,
 #header.header-pages {
-  height: 80px;
+  height: 100px;
   padding: 10px 0;
 }
 
@@ -152,9 +153,10 @@ h6 {color:orangered;
 }
 
 #header .logo img {
-  padding-bottom: 5px;
-  margin: 5px 0;
-  max-height: 70px;
+  padding-left:-20px;
+  padding-bottom: 60px;
+  margin: -15px -12px;
+  max-height: 135px;
 }
 
 .main-pages {
@@ -170,7 +172,7 @@ h6 {color:orangered;
   position: relative;
   background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 80px 0;
+  padding: 300px 0 80px 0;
 }
 
 #intro .intro-img {
@@ -186,6 +188,13 @@ h6 {color:orangered;
   color: #fff;
   margin-bottom: 40px;
   font-size: 48px;
+  font-weight: 700;
+}
+
+#intro .intro-info h3 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -347,7 +356,7 @@ h6 {color:orangered;
   overflow-y: auto;
   left: -260px;
   width: 260px;
-  padding-top: 18px;
+  padding-top: 10px;
   background: rgba(51, 36, 27, 0.8);
   transition: 0.4s;
 }
@@ -558,16 +567,16 @@ h6 {color:orangered;
    width: 100%;
   left: 0;}
 #organized .text{
-  color: black;
-  font-size: 20px;
+color: black;
+  font-size: 17px;
   position: relative;
   top: 50%;
   left: 50%;
-  text-align:center;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  white-space: nowrap;
+  text-align: center;
+  opacity:0.8;
 }
 /* About Us Section
 --------------------------------*/
@@ -700,7 +709,7 @@ h6 {color:orangered;
 
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 5px;
   top: calc(50% - 32px);
 }
 
@@ -733,6 +742,7 @@ h6 {color:orangered;
 }
 
 #why-us {
+  height:100%;
   padding: 10px 0;
   background: black;
 }
@@ -743,11 +753,12 @@ h6 {color:orangered;
 }
 
 #why-us .card {
+  height:100%;
   background: black;
   border-color: black;
   border-radius: 0px;
   margin: 0 5px;
-  padding: 5px 0;
+  padding: 10px 0;
   text-align: center;
   color: #fff;
   transition: 0.3s ease-in-out;
@@ -1157,11 +1168,11 @@ h6 {color:orangered;
   opacity: 1;
 }
 #clients .text {
-  color: ;
+  color: black;
   font-size: 17px;
   position: relative;
   top: 50%;
-  left: 50%;black
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
