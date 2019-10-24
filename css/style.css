@@ -477,7 +477,7 @@ h6 {color:orangered;
     text-align:center;
   }
   .section-header h6 {
-    color: rgb(196, 186, 186);
+    color: #000000;
     margin-bottom: 40px;
     font-size: 24px;
     font-weight: 700;
@@ -511,9 +511,9 @@ h6 {color:orangered;
   text-align:center;
 }
 .section-header h6 {
-  color: #fff;
+  color: black;
   margin-bottom: 40px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   position:relative;
   text-align:center;
@@ -681,6 +681,7 @@ color: black;
   font-weight: 600;
   font-size: 24px;
 }
+
 
 /* Services Section
 --------------------------------*/
